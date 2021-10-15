@@ -1,0 +1,24 @@
+<html>
+    <head>
+
+        <title>Test site</title>
+
+        <link rel="stylesheet" href="/static/css/styles.css">
+
+
+        <p>header stuff on base base</p>
+    </head>
+    <body>
+
+        {% include 'headertest.html' %}
+
+        <main>
+            {% block content %}
+            {% endblock %}            
+        </main>
+
+        {% include 'testfooter.html' %}
+    
+    
+    </body>
+</html>
